@@ -31,10 +31,10 @@ public class String1 {
     }
     public boolean equal(String1 s) {
         if (length() != s.length())
-		retrun false;
+		return false;
 	for(int i = 0; i<length(); i++)
-		if (str.getChar(i)!=s.getChar(i))
-			retrun false;
+		if (getChar(i)!=s.getChar(i))
+			return false;
 	return true;
     }
     public void reverse() {
